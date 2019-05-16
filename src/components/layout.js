@@ -1,9 +1,12 @@
-import React from "react"
-import PropTypes from "prop-types"
-import { StaticQuery, graphql } from "gatsby"
+import React from 'react'
+import PropTypes from 'prop-types'
+import { StaticQuery, graphql } from 'gatsby'
+import 'bootstrap/dist/css/bootstrap.css';
 
-import Header from "./header"
-import "./layout.css"
+import Header from './header'
+import Navbar from './Navbar'
+import '../styles/vendor/layout.css'
+import '../styles/style.css'
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -18,6 +21,7 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
+        <Navbar />
         <Header siteTitle={data.site.siteMetadata.title} />
         <div
           style={{
@@ -31,7 +35,7 @@ const Layout = ({ children }) => (
           <footer>
             © {new Date().getFullYear()}, Built with
             {` `}
-            <a href="https://www.gatsbyjs.org">Gatsby</a>
+            <a href='https://www.gatsbyjs.org'>Gatsby</a>
           </footer>
         </div>
       </>
