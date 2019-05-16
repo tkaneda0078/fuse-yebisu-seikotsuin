@@ -3,4 +3,6 @@
 ------------------------------ */
 .jumbotron {
   height: 100vh;
+  background:url('../images/sample2.jpg') center no-repeat; 
+  background-size: cover;
 }
