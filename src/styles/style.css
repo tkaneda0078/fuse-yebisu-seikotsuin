@@ -6,3 +6,35 @@
   background:url('../images/sample2.jpg') center no-repeat; 
   background-size: cover;
 }
+
+.main-contents {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  max-width: 1360px;
+  margin: 0 auto 125px;
+  transform: translateY(-35px);
+}
+
+.main-contents .img {
+  width: 100%;
+  height: 38rem;
+  object-fit: cover;
+}
+
+.main-contents .main-img {
+  margin-left: auto;
+}
+
+.main-txt {
+  position: absolute;
+  bottom: 12rem;
+  left: 30px;
+  width: 400px;
+}
+
+@media (max-width: 1400px) {
+  .main-img {
+    width: calc(100% - 360px);
+  }
+}
