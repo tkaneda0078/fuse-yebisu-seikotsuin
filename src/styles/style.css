@@ -33,6 +33,23 @@
   width: 400px;
 }
 
+.card-group {
+  overflow: hidden;
+  width: 100%;
+  max-width: 1360px;
+  margin: 0 auto 125px;
+}
+
+.card {
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.card-img {
+  height: 180px;
+  width: 100%;
+}
+
 @media (max-width: 1400px) {
   .main-img {
     width: calc(100% - 360px);
