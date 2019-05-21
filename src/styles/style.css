@@ -5,6 +5,7 @@
   height: 100vh;
   background:url('../images/sample2.jpg') center no-repeat; 
   background-size: cover;
+  margin: 0 auto 125px;
 }
 
 .main-contents {
@@ -31,6 +32,10 @@
   bottom: 12rem;
   left: 30px;
   width: 400px;
+}
+
+.list-group {
+  margin: 0 auto 125px;
 }
 
 .card-group {

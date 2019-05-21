@@ -4,6 +4,7 @@ import React from 'react'
 import Layout from '../components/layout'
 import Image from '../components/image'
 import SEO from '../components/seo'
+import News from '../components/News'
 import Card from 'react-bootstrap/Card'
 import CardGroup from 'react-bootstrap/CardGroup'
 import Button from 'react-bootstrap/Button'
@@ -11,6 +12,7 @@ import Button from 'react-bootstrap/Button'
 const IndexPage = () => (
   <Layout>
     <SEO title='Home' keywords={[`gatsby`, `application`, `react`]} />
+    <News />
     <div className='main-contents'>
       <figure className='main-img'>
         <Image className={'img'} filename={'sample2.jpg'} alt={''} />
