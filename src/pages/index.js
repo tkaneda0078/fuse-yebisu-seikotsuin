@@ -8,6 +8,7 @@ import News from '../components/News'
 import Card from 'react-bootstrap/Card'
 import CardGroup from 'react-bootstrap/CardGroup'
 import Button from 'react-bootstrap/Button'
+import Staff from '../components/Staff'
 
 const IndexPage = () => (
   <Layout>
@@ -60,6 +61,8 @@ const IndexPage = () => (
         </Card>
       </CardGroup>
     </div>
+    <Staff />
+
   </Layout>
 )
 
