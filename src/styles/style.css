@@ -69,6 +69,15 @@
   margin: auto;
 }
 
+.footer {
+  height: 500px;
+}
+
+.footer .footer-img {
+  height: 19rem;
+  width: 100%;
+}
+
 @media (max-width: 1400px) {
   .main-img {
     width: calc(100% - 360px);

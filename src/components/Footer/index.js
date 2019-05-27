@@ -6,24 +6,30 @@ import Col from 'react-bootstrap/Col'
 import GlobalNav from '../GlobalNav'
 import Schedule from '../Schedule'
 import Address from '../Address'
+import Image from '../image'
 
 const Footer = () => (
-  <footer className='navbar-fixed-bottom'>
+  <footer className='footer navbar-fixed-bottom'>
     <Container>
       <GlobalNav />
       <Row>
         <Col>
-          <Schedule />
+          <Image className={'footer-img rounded'} filename={'sample2.jpg'} alt={''} />
         </Col>
         <Col>
-          <Address />
-          <p>リラク・ボディケア 接骨・整骨 整体 健康・美容サービスその他</p>
+          <Row>
+            <Col>
+              <Schedule />
+              <Address />
+              <p>リラク・ボディケア 接骨・整骨 整体 健康・美容サービスその他</p>
+            </Col>
+          </Row>
         </Col>
       </Row>
+      <div className='text-center mt-5'>
+        <p>© {new Date().getFullYear()}, Built with<a href='www.devbutze.com'>DevButze</a> </p>
+      </div>
     </Container>
-    <div className='text-center'>
-      <p>© {new Date().getFullYear()}, Built with<a href='www.devbutze.com'>DevButze</a> </p>
-    </div>
   </footer>
 )
 
