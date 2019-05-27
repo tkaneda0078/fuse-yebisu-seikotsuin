@@ -3,9 +3,8 @@ import PropTypes from 'prop-types'
 import { StaticQuery, graphql } from 'gatsby'
 import 'bootstrap/dist/css/bootstrap.css';
 
-import Header from './header'
+import Header from './Header'
 import Footer from './Footer'
-import Navbar from './Navbar'
 import '../styles/vendor/layout.css'
 import '../styles/style.css'
 
@@ -22,7 +21,6 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
-        <Navbar />
         <Header siteTitle={data.site.siteMetadata.title} />
         <div>
           <main>{children}</main>
