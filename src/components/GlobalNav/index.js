@@ -4,7 +4,7 @@ import Nav from 'react-bootstrap/Nav'
 
 // TODO: class化
 const GlobalNav = () => (
-  <Nav defaultActiveKey="/home" as="ul">
+  <Nav justify defaultActiveKey="/home" as="ul">
     <Nav.Item as="li">
       <Nav.Link href="/home">当院について</Nav.Link>
     </Nav.Item>
