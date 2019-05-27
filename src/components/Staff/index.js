@@ -36,7 +36,7 @@ class Staff extends Component {
         <Row>
           {
             this.state.profiles.map(profile => (
-              <Col className='text-center'>
+              <Col className='text-center' key={profile.name}>
                 <Figure>
                   <Image className={'staff-img img-circle'} filename={profile.image} alt={''} />
                   <Figure.Caption className='text-center mt-3'>
