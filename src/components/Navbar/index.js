@@ -1,10 +1,10 @@
 import React from 'react';
 import Nav from 'react-bootstrap/Nav'
 
-const Navbar = () => (
+const Navbar = (props) => (
   <Nav className='navbar navbar-expand-lg navbar-light py-3'>
     <div className='container'>
-      <a className='navbar-brand js-scroll-trigger' href='#page-top'>Start Bootstrap</a>
+      <a className='navbar-brand js-scroll-trigger' href='#page-top'>{props.siteTitle}</a>
       <button className='navbar-toggler' type='button' data-toggle='collapse' data-target='#navbarResponsive' aria-controls='navbarResponsive' aria-expanded='false' aria-label='Toggle navigation'>
         <span className='navbar-toggler-icon'></span>
       </button>

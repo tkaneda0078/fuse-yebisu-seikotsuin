@@ -4,9 +4,9 @@ import React from 'react'
 import Navbar from '../Navbar'
 import Jumbotron from 'react-bootstrap/Jumbotron'
 
-const Header = () => (
+const Header = (props) => (
   <header>
-    <Navbar />
+    <Navbar siteTitle={props.siteTitle}/>
     <Jumbotron fluid />
   </header>
 )
