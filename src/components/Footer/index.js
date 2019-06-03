@@ -1,4 +1,8 @@
 import React from 'react'
+import { Link } from 'gatsby'
+import { MDBIcon, MDBContainer } from 'mdbreact';
+import '@fortawesome/fontawesome-free/css/all.min.css';
+import 'bootstrap-css-only/css/bootstrap.min.css';
 
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
@@ -21,7 +25,16 @@ const Footer = () => (
             <Col>
               <Schedule />
               <Address />
-              <p>リラク・ボディケア 接骨・整骨 整体 健康・美容サービスその他</p>
+              <div className='social-contents'>
+                <MDBContainer>
+                  <Link className='fb-ic mr-3' to='#'>
+                    <MDBIcon fab icon='facebook-f' />
+                  </Link>
+                  <Link className='ins-ic mr-3' to='#'>
+                    <MDBIcon fab icon='instagram' />
+                  </Link>
+                </MDBContainer>
+              </div>
             </Col>
           </Row>
         </Col>
