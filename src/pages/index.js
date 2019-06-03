@@ -1,17 +1,20 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
+import Jumbotron from 'react-bootstrap/Jumbotron'
+import Card from 'react-bootstrap/Card'
+import CardGroup from 'react-bootstrap/CardGroup'
+
 import Layout from '../components/layout'
 import Image from '../components/image'
 import SEO from '../components/seo'
 import News from '../components/News'
-import Card from 'react-bootstrap/Card'
-import CardGroup from 'react-bootstrap/CardGroup'
 import Staff from '../components/Staff'
 
 const IndexPage = () => (
   <Layout>
     <SEO title='Home' keywords={[`gatsby`, `application`, `react`]} />
+    <Jumbotron fluid />
     <News />
     <div className='main-contents'>
       <figure className='main-img'>

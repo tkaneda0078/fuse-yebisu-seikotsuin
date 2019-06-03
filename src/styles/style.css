@@ -1,6 +1,22 @@
 /* ------------------------------ 
   トップ画面
 ------------------------------ */
+
+.header {
+  height: 5rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #fff;
+  transition: all 1s ease;
+  z-index: 10;
+}
+
+.hidden {
+  background: none;
+  transition: all 1s ease;
+}
+
 .jumbotron {
   height: 100vh;
   background:url('../images/sample2.jpg') center no-repeat; 
