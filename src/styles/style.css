@@ -50,6 +50,20 @@
   width: 400px;
 }
 
+.sub-contents {
+  margin: 0 auto 125px;
+}
+
+.sub-contents .media {
+  margin: 0 auto 100px;
+}
+
+.sub-contents .img {
+  width: 20rem;
+  height: 15rem;
+  object-fit: cover;
+}
+
 .list-group {
   margin: 0 auto 125px;
 }

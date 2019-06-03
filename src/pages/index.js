@@ -4,18 +4,18 @@ import { Link } from 'gatsby'
 import Jumbotron from 'react-bootstrap/Jumbotron'
 import Card from 'react-bootstrap/Card'
 import CardGroup from 'react-bootstrap/CardGroup'
+import Media from 'react-bootstrap/Media'
 
 import Layout from '../components/layout'
 import Image from '../components/image'
 import SEO from '../components/seo'
 import News from '../components/News'
-import Staff from '../components/Staff'
 
 const IndexPage = () => (
   <Layout>
     <SEO title='Home' keywords={[`gatsby`, `application`, `react`]} />
     <Jumbotron fluid />
-    <News />
+
     <div className='main-contents'>
       <figure className='main-img'>
         <Image className={'img'} filename={'sample2.jpg'} alt={''} />
@@ -26,7 +26,30 @@ const IndexPage = () => (
         <p>地域の皆様が元気な体で、笑顔あふれる生活をお送りできますよう、精一杯サポートさせていただきます。</p>
       </div>
     </div>
-    <div>
+
+    <div className='sub-contents'>
+      <ul>
+        <Media as='li'>
+          <Image className={'img'} filename={'sample2.jpg'} alt={''} />
+          <Media.Body className='ml-5'>
+            <h4>布施で一番【笑顔】が多い整骨院を目指します！</h4>
+            <p>この業界に勤めて約10年。有難いことに、これまでたくさんの方々に支えられ「布施　ゑびす整骨院」を開院することができました。</p>
+            <p>地域の皆様が元気な体で、笑顔あふれる生活をお送りできますよう、精一杯サポートさせていただきます。</p>
+            <p>些細なことでも構いません。体に気になることがございましたら、何なりとご相談ください。</p>
+          </Media.Body>
+        </Media>
+        <Media as='li'>
+          <Media.Body className='mr-5'>
+            <h4>ホッと一息つける温かみのある院内です</h4>
+            <p>院内は、白と緑を基調とした清潔感あふれる空間となっています。また、開放感のある広々とした院内ですので、初めてご来院される方も女性の方もリラックスしてお過ごしいただけます。</p>
+            <p>心も体も落ち着ける環境を整えていますので、気を楽にしてお越しください。</p>
+          </Media.Body>
+          <Image className={'img'} filename={'sample2.jpg'} alt={''} />
+        </Media>
+      </ul>
+    </div>
+
+    <div className='menu-contents'>
       <CardGroup>
         <Card className='rounded'>
           <Image className={'card-img rounded'} filename={'sample2.jpg'} alt={''} />
@@ -74,7 +97,8 @@ const IndexPage = () => (
         </Card>
       </CardGroup>
     </div>
-    <Staff />
+
+    <News />
 
   </Layout>
 )
