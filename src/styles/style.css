@@ -28,7 +28,6 @@
   position: relative;
   overflow: hidden;
   width: 100%;
-  max-width: 1360px;
   margin: 0 auto 125px;
   transform: translateY(-35px);
 }
@@ -97,6 +96,12 @@
   height: 190px;
   border-radius: 50%;
   margin: auto;
+}
+
+.google-map {
+  height: 70vh;
+  width: 100%;
+  margin: 0 auto 125px;
 }
 
 .footer {
