@@ -1,8 +1,10 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-import Container from 'react-bootstrap/Container'
 import Jumbotron from 'react-bootstrap/Jumbotron'
+import Container from 'react-bootstrap/Container'
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
 
 import Layout from '../components/layout'
 import Image from '../components/image'
@@ -17,7 +19,10 @@ const IndexPage = () => (
     <Container>
 
       <div className='about-contents'>
-        <h1>老若男女問わず、患者様一人ひとりのお気持ちに寄り添います</h1>
+        <h1 className='caption'>
+          <p>老若男女問わず</p>
+          <p>患者様一人ひとりのお気持ちに寄り添います</p>
+        </h1>
 
         <div className='policy-content'>
           <figure>
@@ -41,23 +46,49 @@ const IndexPage = () => (
               <Image className={'img'} filename={'sample2.jpg'} alt={''} />
             </figure>
             <div className='caption'>
-                <h3>布施で一番【笑顔】が多い整骨院を目指します！</h3>
-                <p>この業界に勤めて約10年。有難いことに、これまでたくさんの方々に支えられ「布施　ゑびす整骨院」を開院することができました。</p>
-                <p>地域の皆様が元気な体で、笑顔あふれる生活をお送りできますよう、精一杯サポートさせていただきます。</p>
-                <p>些細なことでも構いません。体に気になることがございましたら、何なりとご相談ください。</p>
+              <h3>布施で一番【笑顔】が多い整骨院を目指します！</h3>
+              <p>この業界に勤めて約10年。有難いことに、これまでたくさんの方々に支えられ「布施　ゑびす整骨院」を開院することができました。</p>
+              <p>地域の皆様が元気な体で、笑顔あふれる生活をお送りできますよう、精一杯サポートさせていただきます。</p>
+              <p>些細なことでも構いません。体に気になることがございましたら、何なりとご相談ください。</p>
             </div>
           </div>
+
+          <Container className='image-contents'>
+            <Row>
+              <Col sm={8} className='mb-3'>
+                <Image className={'img'} filename={'sample2.jpg'} alt={''} />
+              </Col>
+              <Col sm={4} className='mb-3'>
+                <Image className={'img'} filename={'sample2.jpg'} alt={''} />
+              </Col>
+            </Row>
+          </Container>
+
           <div className='concept'>
             <figure>
               <Image className={'img'} filename={'sample2.jpg'} alt={''} />
             </figure>
             <div className='caption'>
-                <h3>ホッと一息つける温かみのある院内です</h3>
-                <p>院内は、白と緑を基調とした清潔感あふれる空間となっています。また、開放感のある広々とした院内ですので、初めてご来院される方も女性の方もリラックスしてお過ごしいただけます。</p>
-                <p>心も体も落ち着ける環境を整えていますので、気を楽にしてお越しください。</p>
+              <h3>ホッと一息つける温かみのある院内です</h3>
+              <p>院内は、白と緑を基調とした清潔感あふれる空間となっています。また、開放感のある広々とした院内ですので、初めてご来院される方も女性の方もリラックスしてお過ごしいただけます。</p>
+              <p>心も体も落ち着ける環境を整えていますので、気を楽にしてお越しください。</p>
             </div>
           </div>
         </div>
+
+        <Container className='image-contents'>
+          <Row>
+            <Col sm className='mb-3'>
+              <Image className={'img'} filename={'sample2.jpg'} alt={''} />
+            </Col>
+            <Col sm className='mb-3'>
+              <Image className={'img'} filename={'sample2.jpg'} alt={''} />
+            </Col>
+            <Col sm className='mb-3'>
+              <Image className={'img'} filename={'sample2.jpg'} alt={''} />
+            </Col>
+          </Row>
+        </Container>
 
       </div>
 

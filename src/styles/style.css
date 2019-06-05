@@ -127,6 +127,11 @@ body {
   width: 100%
 }
 
+.about-contents h1.caption {
+  margin-left: 5rem;
+  margin-bottom: 5rem;
+}
+
 .policy-content {
   position: relative;
   margin: 0 auto 125px;
@@ -170,7 +175,19 @@ body {
   margin: auto;
 }
 
+.image-contents {
+  margin: 0 auto 100px;
+}
+
+.image-contents .img {
+  height: 20rem;
+}
+
 @media(max-width: 768px) {
+  .about-contents h1.caption {
+    margin-left: 1rem;
+  }
+
   .policy-content,
   .policy-content .policy-caption {
     position: unset;
