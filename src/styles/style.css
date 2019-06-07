@@ -3,6 +3,7 @@
 ------------------------------ */
 body {
   font-family: 'Noto Sans JP', sans-serif;
+  color: #212121;
 }
 
 .header {
@@ -19,9 +20,13 @@ body {
   height: 500px;
 }
 
-.footer .footer-img {
+.footer .img {
   height: 19rem;
   width: 100%;
+}
+
+.footer .nav-item .nav-link {
+  color: #323232;
 }
 
 .hidden {
@@ -34,6 +39,10 @@ body {
   background:url('../images/sample2.jpg') center no-repeat; 
   background-size: cover;
   margin: 0 auto 125px;
+}
+
+.nav .nav-item .nav-link:hover {
+  color: #5dc3c3 !important;
 }
 
 /* ------------------------------ 

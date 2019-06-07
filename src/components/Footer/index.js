@@ -17,10 +17,10 @@ const Footer = () => (
     <Container>
       <GlobalNav />
       <Row>
-        <Col>
-          <Image className={'footer-img rounded'} filename={'sample2.jpg'} alt={''} />
+        <Col sm={6} className='pr-xl-5'>
+          <Image className={'img rounded'} filename={'sample2.jpg'} alt={''} />
         </Col>
-        <Col>
+        <Col sm={6}>
           <Row>
             <Col>
               <Schedule />

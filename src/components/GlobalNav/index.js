@@ -4,7 +4,7 @@ import Nav from 'react-bootstrap/Nav'
 
 // TODO: class化
 const GlobalNav = () => (
-  <Nav justify as='ul'>
+  <Nav justify as='ul' className='mx-1'>
     <Nav.Item as='li'>
       <Nav.Link href='/about'>当院について</Nav.Link>
     </Nav.Item>
