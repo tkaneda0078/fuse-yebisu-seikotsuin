@@ -14,7 +14,7 @@ class GoogleMap extends Component {
     new maps.Marker({
       position: this.props.center,
       map,
-      title: 'Hello World!'
+      title: ''
     });
   }
 
