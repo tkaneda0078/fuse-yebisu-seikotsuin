@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'gatsby'
 import { MDBIcon, MDBContainer } from 'mdbreact';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import 'bootstrap-css-only/css/bootstrap.min.css';
@@ -18,7 +17,7 @@ const Footer = () => (
       <GlobalNav />
       <Row>
         <Col sm={6} className='pr-xl-5'>
-          <Image className={'img rounded'} filename={'sample2.jpg'} alt={''} />
+          <Image className={'img rounded'} filename={'img-shop001.jpg'} alt={''} />
         </Col>
         <Col sm={6}>
           <Row>
@@ -27,12 +26,9 @@ const Footer = () => (
               <Address />
               <div className='social-contents'>
                 <MDBContainer>
-                  <Link className='fb-ic mr-3' to='#'>
-                    <MDBIcon fab icon='facebook-f' />
-                  </Link>
-                  <Link className='ins-ic mr-3' to='#'>
-                    <MDBIcon fab icon='instagram' />
-                  </Link>
+                  <a className='ins-ic' href='https://www.instagram.com/fuseebisu2951/'>
+                    <MDBIcon className='icon fa-2x' fab icon='instagram' />
+                  </a>
                 </MDBContainer>
               </div>
             </Col>

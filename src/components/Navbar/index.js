@@ -19,11 +19,11 @@ const Navbar = (props) => (
           <Nav.Item className='nav-item' as='li'>
             <Nav.Link href='/staff' className='js-scroll-trigger'>スタッフ</Nav.Link>
           </Nav.Item>
-          <Nav.Item className='nav-item' as='li'>
+          {/* <Nav.Item className='nav-item' as='li'>
             <Nav.Link href='/news' className='js-scroll-trigger'>お知らせ</Nav.Link>
-          </Nav.Item>
+          </Nav.Item> */}
           <Nav.Item className='nav-item' as='li'>
-            <Nav.Link href='/question' className='js-scroll-trigger'>よくある質問</Nav.Link>
+            <Nav.Link href='/faq' className='js-scroll-trigger'>よくある質問</Nav.Link>
           </Nav.Item>
           <Nav.Item className='nav-item' as='li'>
             <Nav.Link href='/access' className='js-scroll-trigger'>アクセス</Nav.Link>

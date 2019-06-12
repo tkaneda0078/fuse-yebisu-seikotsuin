@@ -10,21 +10,21 @@ const Faq = (props) => (
   <Container>
     <ListGroup variant='flush'>
       {
-        props.faqData.map((data) => {
+        props.faqData.map((data, i) => {
           let pointLeft = 12,
             pointRight = 12;
           if (data.img || data.url) {
             pointLeft = 7;
             pointRight = 5;
           }
-          return <ListGroup.Item>
+          return <ListGroup.Item key={i}>
             <div className='faq-content'>
               <Row className='mb-5'>
                 <Col sm={pointLeft}>
                   <Row>
                     <Col>
                       <div className='question'>
-                        <i class='fab fa-quora fa-2x' />
+                        <i className='fab fa-quora fa-2x' />
                         <p className='ml-4'>{data.question}</p>
                       </div>
                     </Col>
@@ -32,7 +32,7 @@ const Faq = (props) => (
                   <Row>
                     <Col>
                       <div className='answer'>
-                        <i class='fa fa-font fa-2x' />
+                        <i className='fa fa-font fa-2x' />
                         <p className='ml-4'>{data.answer}</p>
                       </div>
                     </Col>

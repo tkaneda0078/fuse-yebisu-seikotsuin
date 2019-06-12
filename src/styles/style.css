@@ -3,7 +3,7 @@
 ------------------------------ */
 body {
   font-family: 'Noto Sans JP', sans-serif;
-  color: #212121;
+  color: rgba(0, 0, 0, 0.8) !important;;
 }
 
 .header {
@@ -21,12 +21,18 @@ body {
 }
 
 .footer .img {
-  height: 19rem;
+  height: 100%;
   width: 100%;
 }
 
-.footer .nav-item .nav-link {
-  color: rgba(0, 0, 0, 0.5);
+.footer .schedule {
+  font-size: 80%;
+  font-weight: 400;
+}
+
+.footer .nav-item .nav-link,
+.navbar-nav .nav-item .nav-link {
+  color: rgba(0, 0, 0, 0.7) !important;
 }
 
 .hidden {
@@ -45,6 +51,11 @@ body {
   color: #5dc3c3 !important;
 }
 
+.text-color,
+.social-contents .icon {
+  color: #29abab;
+}
+
 /* ------------------------------ 
   top
 ------------------------------ */
@@ -58,7 +69,7 @@ body {
 
 .main-contents .img {
   width: 100%;
-  height: 38rem;
+  height: 35rem;
   object-fit: cover;
 }
 
@@ -68,9 +79,9 @@ body {
 
 .main-contents .description {
   position: absolute;
-  bottom: 12rem;
-  left: 30px;
-  width: 400px;
+  bottom: 3rem;
+  left: 2rem;
+  width: 25rem;
 }
 
 .sub-contents {
@@ -82,8 +93,8 @@ body {
 }
 
 .sub-contents .img {
-  width: 20rem;
-  height: 15rem;
+  width: 22rem;
+  height: 20rem;
   object-fit: cover;
 }
 
@@ -93,21 +104,30 @@ body {
   margin: 0 auto 100px;
 }
 
-.sub-contents  .content .img {
-  width: 21rem;
-  height: 18rem;
-  object-fit: cover;
-  display: block;
-}
-
-.sub-contents  .content .description {
+.sub-contents .description {
   position: absolute;
-  width: 50%;
+  width: 60%;
   bottom: 0;
   right: 0;
   text-align: left;
   top: 1rem;
   margin: auto;
+}
+
+.point-contents {
+  margin: 0 auto 125px;
+}
+
+.point-contents .card {
+  border: none;
+}
+
+.point-contents .card-title {
+  font-size: 1.2rem;
+}
+
+.point-contents .card-img {
+  height: auto;
 }
 
 
@@ -132,20 +152,6 @@ body {
   width: 100%;
 }
 
-.staff-contents {
-  overflow: hidden;
-  width: 100%;
-  max-width: 1360px;
-  margin: 0 auto 125px;
-}
-
-.staff-img {
-  width: 190px;
-  height: 190px;
-  border-radius: 50%;
-  margin: auto;
-}
-
 .google-map {
   height: 70vh;
   width: 100%;
@@ -159,7 +165,7 @@ body {
 
   .main-contents .img {
     width: 100%;
-    height: 30rem; 
+    height: 20rem; 
   }
 
   .main-contents .description {
@@ -167,23 +173,20 @@ body {
     padding: 0 3rem;
   }
 
-  .sub-contents  .content .description {
+  .sub-contents .description {
     position: unset;
-  }
-
-  .sub-contents  .content .img {
-    width: 100%;
-    height: 30rem; 
-  }
-  
-  .sub-contents  .content .description {
     width: 100%;
     padding: 0 3rem;
   }
 
+  .sub-contents .img {
+    width: 100%;
+    height: 15rem; 
+  }
+
 }
 
-@media (min-width: 769px) and (max-width: 1400px) {
+@media (min-width: 769px) {
   .main-img {
     width: calc(100% - 360px);
   }
@@ -196,10 +199,14 @@ body {
   width: 100%
 }
 
-.about-contents h1.caption {
-  font-size: 2rem;
+.about-contents .caption {
   margin-left: 5rem;
-  margin-bottom: 5rem;
+  color: #29abab;
+}
+
+.about-contents .caption p {
+  display: inline-block;
+  border-bottom: solid 2px #5dc3c3;
 }
 
 .policy-content {
@@ -207,46 +214,50 @@ body {
   margin: 0 auto 125px;
 }
 
-.policy-content .policy-img {
+.policy-content .img {
   width: 80%;
   height: 38rem;
   object-fit: cover;
   display: block;
 }
 
-.policy-content .policy-caption {
+.policy-content .description {
   position: absolute;
   width: 40%;
-  bottom: 0;
+  bottom: 2rem;
   right: 1rem;
-  padding: 0 1rem;
+}
+
+.concept-contents {
+  margin: 0 auto 125px;
+
 }
 
 .concept-contents .concept {
   position: relative;
   text-align: center;
-  margin: 0 auto 100px;
 }
 
-.concept-contents .concept .img {
+.concept-contents .img {
   width: 25rem;
   height: 20rem;
   object-fit: cover;
-  display: block;
 }
 
-.concept-contents .concept .caption {
+.concept-contents .description {
   position: absolute;
-  width: 50%;
-  bottom: 0;
+  width: 55%;
   right: 0;
   text-align: left;
   top: 1rem;
-  margin: auto;
 }
 
 .image-contents {
-  margin: 0 auto 100px;
+  margin: 0 auto 125px;
+}
+
+.image-contents .big-img {
+  height: auto;
 }
 
 .image-contents .img {
@@ -254,36 +265,39 @@ body {
 }
 
 @media(max-width: 768px) {
-  .about-contents h1.caption {
-    margin-left: 1rem;
+  .about-contents .caption {
+    font-size: 1.5rem;
+    margin-left: unset;
+    width: 100%;
+    padding: 0 2rem;
   }
 
   .policy-content,
-  .policy-content .policy-caption {
+  .policy-content .description {
     position: unset;
   }
 
-  .policy-content .policy-img {
+  .policy-content .img {
     width: 100%;
     height: 30rem; 
   }
-
-  .policy-content .policy-caption {
+  
+  .policy-content .description {
     width: 100%;
     padding: 0 3rem;
   }
 
   .concept-contents .concept,
-  .concept-contents .concept .caption {
+  .concept-contents .description {
     position: unset;
   }
 
-  .concept-contents .concept .img {
+  .concept-contents .img {
     width: 100%;
     height: 30rem; 
   }
   
-  .concept-contents .concept .caption {
+  .concept-contents .description {
     width: 100%;
     padding: 0 3rem;
   }
@@ -330,7 +344,7 @@ body {
 .staff-contents .profile {
   position: relative;
   text-align: center;
-  margin: 0 auto 13rem;
+  margin: 0 auto 8rem;
 }
 
 .staff-contents .profile .img-wrap {
@@ -361,7 +375,7 @@ body {
 .staff-contents .profile .description {
   position: absolute;
   width: 40%;
-  z-index: 10;
+  z-index: 1;
 }
 
 .staff-contents .profile .third > .sub-description {
@@ -395,4 +409,67 @@ body {
     width: 100%;
     padding: 0 3rem;
   } 
+}
+
+/* ---------------------
+　faq
+--------------------- */
+.faq-contents {
+  margin: 0 auto 125px;
+}
+
+.faq-contents .title {
+  font-size: 1.5rem;
+}
+
+.faq-contents .caption {
+  margin: 0 auto 100px;
+}
+
+.question .fa-quora {
+  color: #5dc3c3;
+}
+
+.answer .fa-font {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.faq-content .btn-postion {
+  position: absolute;
+  bottom: 1rem;
+  right: 0;
+}
+
+@media(max-width: 768px) {
+  .faq-contents .caption {
+    width: 100%;
+    padding: 0 3rem;
+  }
+
+  .faq-content .btn-postion {
+    position: unset;
+  } 
+}
+
+/* ---------------------
+　access
+--------------------- */
+.access-contents {
+  margin: 0 auto 125px; 
+}
+
+.access-contents .title {
+  font-size: 1.5rem;
+}
+
+.access-contents .caption {
+  margin: 0 auto 100px;
+}
+
+@media(max-width: 768px) {
+  .access-contents .caption,
+  .access-contents .description {
+    width: 100%;
+    padding: 0 2rem;
+  }
 }

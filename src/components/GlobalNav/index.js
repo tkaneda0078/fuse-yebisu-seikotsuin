@@ -14,11 +14,11 @@ const GlobalNav = () => (
     <Nav.Item as='li'>
       <Nav.Link href='/staff'>スタッフ</Nav.Link>
     </Nav.Item>
-    <Nav.Item as='li'>
+    {/* <Nav.Item as='li'>
       <Nav.Link href='/news'>お知らせ</Nav.Link>
-    </Nav.Item>
+    </Nav.Item> */}
     <Nav.Item as='li'>
-      <Nav.Link href='/question'>よくある質問</Nav.Link>
+      <Nav.Link href='/faq'>よくある質問</Nav.Link>
     </Nav.Item>
     <Nav.Item as='li'>
       <Nav.Link href='/access'>アクセス</Nav.Link>
