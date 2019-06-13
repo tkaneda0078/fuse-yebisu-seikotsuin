@@ -12,15 +12,18 @@ const IndexPage = () => (
   <Layout>
 
     <SEO title='Home' keywords={[`gatsby`, `application`, `react`]} />
-    <Jumbotron fluid />
+
+    <Jumbotron fluid className='mb-5'>
+      <Image className={'img'} filename={'img-point006.jpg'} alt={''} />
+    </Jumbotron>
 
     <Container>
 
       <div className='about-contents'>
-        <h1 className='caption mb-5'>
-          <p>老若男女問わず</p>
-          <p>患者様一人ひとりのお気持ちに寄り添います。</p>
-        </h1>
+        <div className='caption mb-5'>
+          <p className='h2'>老若男女問わず</p><br />
+          <p className='h2'>患者様一人ひとりのお気持ちに寄り添います。</p>
+        </div>
 
         <div className='policy-content'>
           <figure>

@@ -12,7 +12,10 @@ const IndexPage = () => (
   <Layout>
 
     <SEO title='Home' keywords={[`gatsby`, `application`, `react`]} />
-    <Jumbotron fluid />
+
+    <Jumbotron fluid className='mb-5'>
+      <Image className={'img'} filename={'img-point007.jpg'} alt={''} />
+    </Jumbotron>
 
     <Container>
 
@@ -44,7 +47,7 @@ const IndexPage = () => (
           </div>
           <Row className='mt-5 mb-5'>
             <Col md={{ span: 3, offset: 0 }} className='second mb-5'>
-              <Image className={'img second-img'} filename={'staff001.jpg'} alt={''} />
+              <Image className={'img second-img'} filename={'staff001_002.jpg'} alt={''} />
             </Col>
             <Col md={{ span: 7, offset: 1 }} className='third mb-5 mt-4'>
               <Row>
@@ -82,7 +85,7 @@ const IndexPage = () => (
           </div>
           <Row className='mt-5 mb-5'>
             <Col md={{ span: 3, offset: 0 }} className='second mb-5'>
-              <Image className={'img second-img'} filename={'staff002.jpg'} alt={''} />
+              <Image className={'img second-img'} filename={'staff002_001.jpg'} alt={''} />
             </Col>
             <Col md={{ span: 7, offset: 1 }} className='third mb-5'>
               <Row>
@@ -123,7 +126,7 @@ const IndexPage = () => (
           </div>
           <Row className='mt-5 mb-5'>
             <Col md={{ span: 3, offset: 0 }} className='second mb-5'>
-              <Image className={'img second-img'} filename={'staff003.jpg'} alt={''} />
+              <Image className={'img second-img'} filename={'staff003_001.jpg'} alt={''} />
             </Col>
             <Col md={{ span: 7, offset: 1 }} className='third mb-5'>
               <Row>

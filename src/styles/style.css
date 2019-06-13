@@ -42,9 +42,12 @@ body {
 
 .jumbotron {
   height: 100vh;
-  background:url('../images/sample2.jpg') center no-repeat; 
   background-size: cover;
   margin: 0 auto 125px;
+}
+
+.jumbotron .img {
+  position: static !important;
 }
 
 .nav .nav-item .nav-link:hover {

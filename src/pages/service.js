@@ -12,35 +12,51 @@ const IndexPage = () => (
   <Layout>
 
     <SEO title='Home' keywords={[`gatsby`, `application`, `react`]} />
-    <Jumbotron fluid />
+
+    <Jumbotron fluid className='mb-5'>
+      <Image className={'img'} filename={'img-point007.jpg'} alt={''} />
+    </Jumbotron>
 
     <Container>
 
       <div className='service-contents'>
 
-        <div className='service'>
-          <h3>骨盤などの矯正（単発）</h3>
-          <Row>
-            <Col xs={12} md={8} className='mb-3'>
-              <Image className={'img'} filename={'sample2.jpg'} alt={''} />
-            </Col>
-            <Col xs={12} md={4} className='mb-3'>
-              <Image className={'img'} filename={'sample2.jpg'} alt={''} />
-            </Col>
-          </Row>
-          <div className='description mt-4'>
-            <p>新規で来られた方は、ほぼ全員と言っていいほど利用されている人気メニュー！</p>
-            <p>「体の歪みは、不調のもと」と言われるほど骨格や骨盤が歪んでいると、身体に様々な影響を及ぼします。</p>
-            <p>痛みを長引かせないためにも、歪んだ体をしっかり整えていき、凝り固まった筋肉もほぐしてきましょう。</p>
-            <p>（痛みのような症状を改善へと導くのはもちろん、美容やダイエットにも効果的です！）</p>
-            <p className='text-right'>1回： 2,000円</p>
-            <p className='text-right'>1か月（30日間）受け放題： 5,400円</p>
-            <p className='text-right'>（２回目以降から受け放題はご利用できます！）</p>
+        <div id='skeletal_correction' className='service'>
+          <h2 className='mb-4 caption'>ゑびす式骨格矯正</h2>
+          <div className='description mb-4'>
+            <p className=''>ゑびす式骨格矯正のメリット</p>
+            <ul>
+              <li>当院の骨盤矯正は<span className='text-danger'>即効性のある矯正です。</span></li>
+              <li><span className='text-danger'>たった一度の施術で驚くほどの効果を実感</span>することができます。</li>
+              <li>ダイナミックな矯正スタイルですが、当院では80歳の方でも矯正を受けています。</li>
+              <li><span className='text-danger'>産後の骨盤矯正にも絶大な効果を発揮</span>します。</li>
+            </ul>
           </div>
+          <figure>
+            <Image className={'img mb-5'} filename={'service001.jpg'} alt={''} />
+          </figure>
+          <h4 className='mb-4 caption'>なぜ矯正をしなければいけないのか？</h4>
+          <div className='description mb-4'>
+            <p>骨盤と背骨は人間の根本的な土台です。</p>
+            <p>この骨盤や背骨に歪みが生じることによりと全身に悪影響を及ぼし、症状となって出現します。</p>
+            <p>また、骨盤は内臓の受け皿でもあるので、ゆがみを生じていれば、内臓の活動が落ち、免疫力や代謝の低下に繋がります。</p>
+          </div>
+          <figure>
+            <Image className={'img mb-5'} filename={'service002.jpg'} alt={''} />
+          </figure>
+          <div className='description mb-4'>
+            <p>逆に骨盤が正しい位置で安定すれば、内臓の活動が活発になり、免疫力や代謝が上がるので、</p>
+            <p>それだけでダイエット効果もあり、健康な身体を手に入れることができます。</p>
+            <p>また骨盤を直す前に、姿勢だけを正そうとして背筋を伸ばして胸を張り、</p>
+            <p>腰が反り返ってしまう状態になっている人が多く、筋肉の痛みにつながっていることが多いのです。</p>
+          </div>
+          <figure>
+            <Image className={'img mb-5'} filename={'service003.jpg'} alt={''} />
+          </figure>
         </div> {/* service */}
 
-        <div className='service'>
-          <h3>小顔リフト矯正</h3>
+        <div id='small_face_correction' className='service'>
+          <h2 className='caption'>小顔リフト矯正</h2>
           <Row>
             <Col xs={12} md={4} className='mb-3'>
               <Image className={'img'} filename={'sample2.jpg'} alt={''} />
@@ -65,7 +81,7 @@ const IndexPage = () => (
         </div> {/* service */}
 
         <div className='service'>
-          <h3>たった20分で腹筋運動！Eトレ</h3>
+          <h2 className='caption'>たった20分で腹筋運動！Eトレ</h2>
           <Row>
             <Col xs={6} md={6} className='mb-3'>
               <Image className={'img'} filename={'sample2.jpg'} alt={''} />

@@ -1,7 +1,7 @@
 import React from 'react'
 import Jumbotron from 'react-bootstrap/Jumbotron'
+import Image from '../components/image'
 import Container from 'react-bootstrap/Container'
-
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import GoogleMap from '../components/GoogleMap'
@@ -10,7 +10,11 @@ const IndexPage = () => (
   <Layout>
 
     <SEO title='Home' keywords={[`gatsby`, `application`, `react`]} />
-    <Jumbotron fluid />
+
+    <Jumbotron fluid className='mb-5'>
+      <Image className={'img'} filename={'img-point007.jpg'} alt={''} />
+    </Jumbotron>
+
 
     <Container>
 

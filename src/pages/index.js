@@ -14,7 +14,9 @@ const IndexPage = () => (
   <Layout>
     <SEO title='Home' keywords={[`gatsby`, `application`, `react`]} />
 
-    <Jumbotron fluid className='mb-5' />
+    <Jumbotron fluid className='mb-5'>
+      <Image className={'img'} filename={'img-point004.jpg'} alt={''} />
+    </Jumbotron>
 
     <Container>
       <div className='main-contents'>
@@ -62,7 +64,7 @@ const IndexPage = () => (
           <Card className='rounded'>
             <Image className={'card-img rounded'} filename={'service001.jpg'} alt={''} />
             <Card.Body>
-              <Card.Title className='text-center'>ゑびす式骨格矯正</Card.Title>
+              <Card.Title className='text-center mb-4'>ゑびす式骨格矯正</Card.Title>
               <Card.Text className='small'>
                 長い間歪んだ体、昔からある体の悩みは、
                 お任せください。
@@ -78,7 +80,7 @@ const IndexPage = () => (
           <Card className='rounded'>
             <Image className={'card-img rounded'} filename={'service005.jpg'} alt={''} />
             <Card.Body>
-              <Card.Title className='text-center'>小顔矯正</Card.Title>
+              <Card.Title className='text-center mb-4'>小顔矯正</Card.Title>
               <Card.Text className='small'>
                 ソフトな施術でエステを受けているような感覚。
                 お得な回数券もご用意しています。
@@ -92,7 +94,7 @@ const IndexPage = () => (
           <Card className='rounded'>
             <Image className={'card-img rounded'} filename={'service006.jpg'} alt={''} />
             <Card.Body>
-              <Card.Title className='text-center'>腹筋運動「Eトレ」</Card.Title>
+              <Card.Title className='text-center mb-4'>腹筋運動「Eトレ」</Card.Title>
               <Card.Text className='small'>
                 ベッドに20分横になっているだけで腹筋運動6,000回。
                 普通では鍛えることが出来ないインナーマッスルを
@@ -113,7 +115,7 @@ const IndexPage = () => (
           <Card className='rounded mb-3'>
             <Image className={'card-img rounded'} filename={'img-point002.jpg'} alt={''} />
             <Card.Body>
-              <Card.Title className='text-center'>交通事故治療の豊富な実績</Card.Title>
+              <Card.Title className='text-center mb-4'>交通事故治療の豊富な実績</Card.Title>
               <Card.Text className='small'>
                 交通事故治療対応の整骨院で自賠責保険による交通事故の治療を行っています。
                 治療費も、基本「<span className='text-color'>負担金なし</span>」でできます。
@@ -125,7 +127,7 @@ const IndexPage = () => (
           <Card className='rounded mb-3'>
             <Image className={'card-img rounded'} filename={'img-point003.jpg'} alt={''} />
             <Card.Body>
-              <Card.Title className='text-center'>業界歴10年の豊富な施術実績</Card.Title>
+              <Card.Title className='text-center mb-4'>業界歴10年の豊富な施術実績</Card.Title>
               <Card.Text className='small'>
                 スタッフ全員が<span className='text-color'>国家資格を保有</span>しております。
                 これまで延べ10万人を超える患者さんの施術実績があり経験も豊富です。
@@ -140,7 +142,7 @@ const IndexPage = () => (
           <Card className='rounded mb-3'>
             <Image className={'card-img rounded'} filename={'img-point004.jpg'} alt={''} />
             <Card.Body>
-              <Card.Title className='text-center'>お子様づれでもOK</Card.Title>
+              <Card.Title className='text-center mb-4'>お子様づれでもOK</Card.Title>
               <Card.Text className='small'>
                 「小さな子どもがいてなかなか整骨院に通いづらい」という方のお話も時々お聞きします。
               </Card.Text>
