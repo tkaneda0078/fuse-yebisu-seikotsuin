@@ -26,9 +26,23 @@ const Footer = () => (
               <Address />
               <div className='social-contents'>
                 <MDBContainer>
-                  <a className='ins-ic' href='https://www.instagram.com/fuseebisu2951/'>
-                    <MDBIcon className='icon fa-2x' fab icon='instagram' />
-                  </a>
+                  <Row>
+                    <Col sm={6} className='w-50'>
+                      <div className='btn-line'>
+                        <a href='https://line.me/R/ti/p/%40zgb4818u'>
+                          <span>
+                            <div className='line-icon' />
+                            友だち追加
+                          </span>
+                        </a>
+                      </div>
+                    </Col>
+                    <Col sm={6} className='my-1 w-25'>
+                      <a className='ins-ic' href='https://www.instagram.com/fuseebisu2951/'>
+                        <MDBIcon className='icon fa-2x' fab icon='instagram' />
+                      </a>
+                    </Col>
+                  </Row>
                 </MDBContainer>
               </div>
             </Col>
