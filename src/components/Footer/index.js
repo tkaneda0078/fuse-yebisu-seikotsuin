@@ -49,8 +49,8 @@ const Footer = () => (
           </Row>
         </Col>
       </Row>
-      <div className='text-center mt-5'>
-        <p>© {new Date().getFullYear()}, Built with<a href='www.devbutze.com'>DevButze</a> </p>
+      <div className='text-center mt-5 text-muted'>
+        <small><p>© FUSE-YEBISU-SEIKOTSU-IN ALL RIGHT RESERVED.</p></small>
       </div>
     </Container>
   </footer>
