@@ -21,7 +21,7 @@ const IndexPage = () => (
 
       <div className='staff-contents'>
 
-        <h1 className='mb-5 text-muted'>スタッフ</h1>
+        <h1 className='h1 mb-5 text-color'>スタッフ</h1>
 
         <div className='profile'>
           <div className='description text-left'>

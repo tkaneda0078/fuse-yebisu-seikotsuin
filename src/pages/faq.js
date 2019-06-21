@@ -36,8 +36,9 @@ class FaqPage extends Component {
 
           <div className='faq-contents'>
 
+            <h1 className='h1 mb-5 text-color'>よくある質問</h1>
+
             <div className='caption'>
-              <h1 className='mb-5 text-muted title'>よくある質問</h1>
               <p className='m-0'>普段、患者さんよりお問い合わせの多い質問についてまとめてみました。</p>
               <p>ご参考までにご覧ください。</p>
               <p>また、当てはまるものがない場合はお気軽にお問い合わせください。</p>

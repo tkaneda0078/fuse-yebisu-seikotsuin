@@ -20,9 +20,12 @@ const IndexPage = () => (
     <Container>
 
       <div className='about-contents'>
+
+        <h1 className='h1 mb-5 text-color'>当院について</h1>
+
         <div className='caption mb-5'>
-          <p className='h2'>老若男女問わず</p><br />
-          <p className='h2'>患者様一人ひとりのお気持ちに寄り添います。</p>
+          <p className='h3'>老若男女問わず</p><br />
+          <p className='h3'>患者様一人ひとりのお気持ちに寄り添います。</p>
         </div>
 
         <div className='policy-content'>

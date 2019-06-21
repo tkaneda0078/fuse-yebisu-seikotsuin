@@ -20,9 +20,7 @@ const IndexPage = () => (
 
       <div className='access-contents mt-5'>
 
-        <div className='caption'>
-          <h1 className='mb-5 text-muted title'>アクセス</h1>
-        </div>
+        <h1 className='h1 mb-5 text-color'>アクセス</h1>
 
         <GoogleMap />
 
