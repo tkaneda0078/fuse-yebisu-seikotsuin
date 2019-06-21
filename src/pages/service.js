@@ -1,12 +1,16 @@
 import React from 'react'
+import { Link } from 'gatsby'
 import Jumbotron from 'react-bootstrap/Jumbotron'
 import Container from 'react-bootstrap/Container'
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
+import CardGroup from 'react-bootstrap/CardGroup'
+import Card from 'react-bootstrap/Card'
 
 import Layout from '../components/layout'
 import Image from '../components/image'
 import SEO from '../components/seo'
+import SkeletalCorrection from '../components/Service/skeletalCorrection'
+import SmallFaceCorrection from '../components/Service/smallFaceCorrection'
+import ETraining from '../components/Service/eTraining'
 
 const IndexPage = () => (
   <Layout>
@@ -21,82 +25,125 @@ const IndexPage = () => (
 
       <div className='service-contents'>
 
-        <div id='skeletal_correction' className='service'>
-          <h2 className='mb-4 caption'>ゑびす式骨格矯正</h2>
-          <div className='description mb-4'>
-            <p className=''>ゑびす式骨格矯正のメリット</p>
-            <ul>
-              <li>当院の骨盤矯正は<span className='text-danger'>即効性のある矯正です。</span></li>
-              <li><span className='text-danger'>たった一度の施術で驚くほどの効果を実感</span>することができます。</li>
-              <li>ダイナミックな矯正スタイルですが、当院では80歳の方でも矯正を受けています。</li>
-              <li><span className='text-danger'>産後の骨盤矯正にも絶大な効果を発揮</span>します。</li>
-            </ul>
-          </div>
-          <figure>
-            <Image className={'img mb-5'} filename={'service001.jpg'} alt={''} />
-          </figure>
-          <h4 className='mb-4 caption'>なぜ矯正をしなければいけないのか？</h4>
-          <div className='description mb-4'>
-            <p>骨盤と背骨は人間の根本的な土台です。</p>
-            <p>この骨盤や背骨に歪みが生じることによりと全身に悪影響を及ぼし、症状となって出現します。</p>
-            <p>また、骨盤は内臓の受け皿でもあるので、ゆがみを生じていれば、内臓の活動が落ち、免疫力や代謝の低下に繋がります。</p>
-          </div>
-          <figure>
-            <Image className={'img mb-5'} filename={'service002.jpg'} alt={''} />
-          </figure>
-          <div className='description mb-4'>
-            <p>逆に骨盤が正しい位置で安定すれば、内臓の活動が活発になり、免疫力や代謝が上がるので、</p>
-            <p>それだけでダイエット効果もあり、健康な身体を手に入れることができます。</p>
-            <p>また骨盤を直す前に、姿勢だけを正そうとして背筋を伸ばして胸を張り、</p>
-            <p>腰が反り返ってしまう状態になっている人が多く、筋肉の痛みにつながっていることが多いのです。</p>
-          </div>
-          <figure>
-            <Image className={'img mb-5'} filename={'service003.jpg'} alt={''} />
-          </figure>
-        </div> {/* service */}
+        <h1 className='h1 mb-5 text-color'>施術内容</h1>
 
-        <div id='small_face_correction' className='service'>
-          <h2 className='caption'>小顔リフト矯正</h2>
-          <Row>
-            <Col xs={12} md={4} className='mb-3'>
-              <Image className={'img'} filename={'sample2.jpg'} alt={''} />
-            </Col>
-            <Col xs={12} md={4} className='mb-3'>
-              <Image className={'img'} filename={'sample2.jpg'} alt={''} />
-            </Col>
-            <Col xs={12} md={4} className='mb-3'>
-              <Image className={'img'} filename={'sample2.jpg'} alt={''} />
-            </Col>
-          </Row>
-          <div className='description mt-4'>
-            <p>ソフトな施術でエステを受けているような感覚！！</p>
-            <p>お得な回数券もご用意しています！</p>
-            <p>6／14よりスタートしリピーターが増えて、施術結果に満足していただける方も多くいらっしゃいます。</p>
-            <p>患者様から「施術は痛い？」と聞かれることが多くあるのですが、「ほとんど痛みはないですよ」とお答えしています。</p>
-            <p>また、受けていただいた方からも、「気持ちいい」や「スッキリした」というお言葉をいただくことが多いです。</p>
-            <p className='text-right'>1回： 2,700円</p>
-            <p className='text-right'>回数券（10回分）：　23,000円</p>
-            <p className='text-right'>（約2回分もお得！）</p>
+        <div className='medical-care-content'>
+          <h4 className='mb-4 caption text-muted'>保険診療</h4>
+          <figure>
+            <Image className={'img'} filename={'service007.jpg'} alt={''} />
+          </figure>
+          <div className='description mb-5'>
+            <p>姿勢のズレや歪みなどで生じた筋肉の硬さや筋肉の傷つきでできた硬さをほぐします。</p>
+            <p>筋肉をほぐすことにより関節の可動域低下や痛みの原因である痛みを改善していきます。</p>
+            <p>ストレッチや運動療法も加えながらの手技治療になります。</p>
           </div>
-        </div> {/* service */}
+          <CardGroup>
+            <Card border='light' className='rounded'>
+              <Card.Body>
+                <Card.Title className='text-center mb-3 text-color'>初診料・再診料</Card.Title>
+                <div className='text-right'>
+                  <Card.Text className='small'>3割負担　1,500円</Card.Text>
+                  <Card.Text className='small'>2割負担　1,100円</Card.Text>
+                  <Card.Text className='small'>1割負担　600円</Card.Text>
+                </div>
+              </Card.Body>
+            </Card>
+            <Card border='light' className='rounded'>
+              <Card.Body>
+                <Card.Title className='text-center mb-3 text-color'>2回目</Card.Title>
+                <div className='text-right'>
+                  <Card.Text className='small'>3割負担　700円</Card.Text>
+                  <Card.Text className='small'>2割負担　600円</Card.Text>
+                  <Card.Text className='small'>1割負担　400円</Card.Text>
+                </div>
+              </Card.Body>
+            </Card>
+            <Card border='light' className='rounded'>
+              <Card.Body>
+                <Card.Title className='text-center mb-3 text-color'>3回目以降</Card.Title>
+                <div className='text-right'>
+                  <Card.Text className='small'>3割負担　500円</Card.Text>
+                  <Card.Text className='small'>2割負担　400円</Card.Text>
+                  <Card.Text className='small'>1割負担　200円</Card.Text>
+                </div>
+              </Card.Body>
+            </Card>
+          </CardGroup>
+          <div className='description text-right mt-3'>
+            <p className='text-color'>(再診料は最終来院日より1か月空いた場合)</p>
+          </div>
+        </div> {/* medical-care-content */}
 
-        <div className='service'>
-          <h2 className='caption'>たった20分で腹筋運動！Eトレ</h2>
-          <Row>
-            <Col xs={6} md={6} className='mb-3'>
-              <Image className={'img'} filename={'sample2.jpg'} alt={''} />
-            </Col>
-            <Col xs={6} md={6} className='mb-3'>
-              <Image className={'img'} filename={'sample2.jpg'} alt={''} />
-            </Col>
-          </Row>
-          <div className='description mt-4'>
-            <p>ベッドに20分横になっているだけで腹筋運動6,000回！！</p>
-            <p>普通では鍛えることが出来ないインナーマッスルをピンポイントで鍛えることが出来る！</p>
-            <p>ほかにもシェイプアップモードや筋トレモードもご準備しています！</p>
-            <p className='text-right'>価格2,700円 (税込)</p>
-          </div>
-        </div> {/* service */}
+        <div className='medical-treatment-content'>
+          <h4 className='mb-4 caption text-muted'>自費治療</h4>
+          <figure>
+            <Image className={'img'} filename={'service008.jpg'} alt={''} />
+          </figure>
+          <div className='menu-contents'>
+            <CardGroup>
+              <Card className='rounded'>
+                <Image className={'card-img rounded'} filename={'service001.jpg'} alt={''} />
+                <Card.Body>
+                  <Card.Title className='text-center mb-3'>ゑびす式骨格矯正</Card.Title>
+                  <Card.Text className='small'>1回 2,000円</Card.Text>
+                  <Card.Text className='small'>定額(1か月) 5,400円</Card.Text>
+                  <Card.Text className='small'>(例…3/5に購入の場合、4/4まで有効)</Card.Text>
+                </Card.Body>
+                <Card.Footer bsPrefix className='text-center p-md-3'>
+                  <Link className='btn btn-outline-info w-100' to='service#skeletal_correction'>ゑびす式骨格矯正について</Link>
+                </Card.Footer>
+              </Card>
+
+              <Card className='rounded'>
+                <Image className={'card-img rounded'} filename={'service005.jpg'} alt={''} />
+                <Card.Body>
+                  <Card.Title className='text-center mb-3'>小顔矯正</Card.Title>
+                  <Card.Text className='small'>1回 2,700円</Card.Text>
+                  <Card.Text className='small'>トライアル(3回券) 7,500円</Card.Text>
+                  <Card.Text className='small'>5回券 12,000円</Card.Text>
+                  <Card.Text className='small'>10回券 23,000円</Card.Text>
+                </Card.Body>
+                <Card.Footer bsPrefix className='text-center p-md-3'>
+                  <Link className='btn btn-outline-info w-100' to='service#small_face_correction'>小顔矯正について</Link>
+                </Card.Footer>
+              </Card>
+
+              <Card className='rounded'>
+                <Image className={'card-img rounded'} filename={'service006.jpg'} alt={''} />
+                <Card.Body>
+                  <Card.Title className='text-center mb-3'>腹筋運動「Eトレ」</Card.Title>
+                  <Card.Text className='small'>1回 2,700円</Card.Text>
+                  <Card.Text className='small'>トライアル 5,400円</Card.Text>
+                  <Card.Text className='small'>24回券 39,800円</Card.Text>
+                  <Card.Text className='small'>36回券 59,700円</Card.Text>
+                  <Card.Text className='small'>48回券 79,600円</Card.Text>
+                </Card.Body>
+                <Card.Footer bsPrefix className='text-center p-md-3'>
+                  <Link className='btn btn-outline-info w-100' to='service#e_training'>Eトレについて</Link>
+                </Card.Footer>
+              </Card>
+            </CardGroup>
+            <div className='description ml-4 text-right'>
+              <h5 className='mb-3'>延長施術</h5>
+              <div className='fee ml-md-5'>
+                <p>5分　　540円　/　15分　1,620円</p>
+                <p>10分　1,080円　/　20分　2,160円</p>
+                <p></p>
+              </div>
+              <p className='text-color m-0 ml-5'>もちろん20分以上の延長もOK!</p>
+              <p className='ml-5'>※当院では50分延長が多いです。</p>
+            </div>
+          </div> {/* menu-contents */}
+        </div> {/* medical-treatment-content */}
+
+        {/* ゑびす式骨格矯正 */}
+        <SkeletalCorrection />
+
+        {/* 小顔矯正 */}
+        <SmallFaceCorrection />
+
+        {/* Eトレ */}
+        <ETraining />
 
         <h5>【重要】自賠責保険の適用に関するご注意</h5>
         <div className='ml-3'>
