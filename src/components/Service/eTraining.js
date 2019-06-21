@@ -8,7 +8,7 @@ import Image from '../image'
  */
 const ETraining = () => (
   <div id='e_training' className='service'>
-    <h2 className='mb-5 caption'><i class='icon fas fa-bullseye mr-2 mb-4' />腹筋運動「Eトレ」</h2>
+    <h2 className='mb-5 caption'><i className='icon fas fa-bullseye mr-2 mb-4' />腹筋運動「Eトレ」</h2>
     <div className='description mt-4 ml-md-4'>
       <h5 className='text-color'>Ｅトレのメリット</h5>
       <p className='text-color m-0'>狙ったところをピンポイントに！</p>

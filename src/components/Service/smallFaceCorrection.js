@@ -8,7 +8,7 @@ import Image from '../image'
  */
 const SmallFaceCorrection = () => (
   <div id='small_face_correction' className='service'>
-    <h2 className='mb-5 caption'><i class='icon fas fa-bullseye mr-2 mb-4' />小顔リフト矯正</h2>
+    <h2 className='mb-5 caption'><i className='icon fas fa-bullseye mr-2 mb-4' />小顔リフト矯正</h2>
     <div className='description mt-4'>
       <p className='text-color'>骨格を知り尽くしたプロが行う"小顔"になる為のメニュー</p>
       <p>整骨院ならではのアプローチ</p>
