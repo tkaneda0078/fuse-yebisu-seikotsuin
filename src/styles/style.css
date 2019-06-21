@@ -360,6 +360,19 @@ body {
 }
 
 /* ---------------------
+　first time
+--------------------- */
+.first-time-contents {
+  margin: 0 auto 125px;
+}
+
+.first-time-contents .icon {
+  text-align: center;
+  color: #29abab;
+}
+
+
+/* ---------------------
 　service
 --------------------- */
 .service-contents,

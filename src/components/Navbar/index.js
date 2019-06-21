@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import Nav from 'react-bootstrap/Nav'
 
 const Navbar = (props) => (
@@ -14,14 +14,14 @@ const Navbar = (props) => (
             <Nav.Link href='/about' className='js-scroll-trigger'>当院について</Nav.Link>
           </Nav.Item>
           <Nav.Item className='nav-item' as='li'>
+            <Nav.Link href='/first-time' className='js-scroll-trigger'>初めての方へ</Nav.Link>
+          </Nav.Item>
+          <Nav.Item className='nav-item' as='li'>
             <Nav.Link href='/service' className='js-scroll-trigger'>施術内容</Nav.Link>
           </Nav.Item>
           <Nav.Item className='nav-item' as='li'>
             <Nav.Link href='/staff' className='js-scroll-trigger'>スタッフ</Nav.Link>
           </Nav.Item>
-          {/* <Nav.Item className='nav-item' as='li'>
-            <Nav.Link href='/news' className='js-scroll-trigger'>お知らせ</Nav.Link>
-          </Nav.Item> */}
           <Nav.Item className='nav-item' as='li'>
             <Nav.Link href='/faq' className='js-scroll-trigger'>よくある質問</Nav.Link>
           </Nav.Item>
@@ -34,4 +34,4 @@ const Navbar = (props) => (
   </Nav>
 )
 
-export default Navbar;
+export default Navbar

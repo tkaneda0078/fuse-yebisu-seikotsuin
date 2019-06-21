@@ -14,9 +14,9 @@ const GlobalNav = () => (
     <Nav.Item as='li'>
       <Nav.Link href='/staff'>スタッフ</Nav.Link>
     </Nav.Item>
-    {/* <Nav.Item as='li'>
-      <Nav.Link href='/news'>お知らせ</Nav.Link>
-    </Nav.Item> */}
+    <Nav.Item as='li'>
+      <Nav.Link href='/first-time'>初めての方へ</Nav.Link>
+    </Nav.Item>
     <Nav.Item as='li'>
       <Nav.Link href='/faq'>よくある質問</Nav.Link>
     </Nav.Item>
