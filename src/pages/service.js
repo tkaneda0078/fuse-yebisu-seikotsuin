@@ -11,6 +11,7 @@ import SEO from '../components/seo'
 import SkeletalCorrection from '../components/Service/skeletalCorrection'
 import SmallFaceCorrection from '../components/Service/smallFaceCorrection'
 import ETraining from '../components/Service/eTraining'
+import TrafficAccidentMedicalTreatment from '../components/Service/trafficAccidentMedicalTreatment'
 
 const IndexPage = () => (
   <Layout>
@@ -144,6 +145,9 @@ const IndexPage = () => (
 
         {/* Eトレ */}
         <ETraining />
+
+        {/* 交通事故治療 */}
+        <TrafficAccidentMedicalTreatment />
 
         <h5>【重要】自賠責保険の適用に関するご注意</h5>
         <div className='ml-3'>
