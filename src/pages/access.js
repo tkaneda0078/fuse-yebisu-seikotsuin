@@ -9,10 +9,10 @@ import GoogleMap from '../components/GoogleMap'
 const IndexPage = () => (
   <Layout>
 
-    <SEO title='Home' keywords={[`gatsby`, `application`, `react`]} />
+    <SEO title='アクセス' keywords={[`gatsby`, `application`, `react`]} />
 
     <Jumbotron fluid className='mb-5'>
-      <Image className={'img'} filename={'img-point007.jpg'} alt={''} />
+      <Image className={'img'} filename={'img-point009.jpg'} alt={''} />
     </Jumbotron>
 
 

@@ -12,7 +12,8 @@ import GoogleMap from '../components/GoogleMap'
 
 const IndexPage = () => (
   <Layout>
-    <SEO title='Home' keywords={[`gatsby`, `application`, `react`]} />
+
+    <SEO title='ホーム' keywords={[`gatsby`, `application`, `react`]} />
 
     <Jumbotron fluid className='mb-5'>
       <Image className={'img'} filename={'img-point004.jpg'} alt={''} />

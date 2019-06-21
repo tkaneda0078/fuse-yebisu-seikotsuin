@@ -11,7 +11,7 @@ import SEO from '../components/seo'
 const IndexPage = () => (
   <Layout>
 
-    <SEO title='Home' keywords={[`gatsby`, `application`, `react`]} />
+    <SEO title='スタッフ' keywords={[`gatsby`, `application`, `react`]} />
 
     <Jumbotron fluid className='mb-5'>
       <Image className={'img'} filename={'img-point007.jpg'} alt={''} />
@@ -149,13 +149,13 @@ const IndexPage = () => (
         <div className='img-list'>
           <Row>
             <Col sm={3} className='mb-3'>
-              <Image className={'img'} filename={'sample2.jpg'} alt={''} />
+              <Image className={'img'} filename={'staff-all001.jpg'} alt={''} />
             </Col>
             <Col sm={6} className='mb-3'>
-              <Image className={'img'} filename={'sample2.jpg'} alt={''} />
+              <Image className={'img'} filename={'staff-all003.jpg'} alt={''} />
             </Col>
             <Col sm={3} className='mb-3'>
-              <Image className={'img'} filename={'sample2.jpg'} alt={''} />
+              <Image className={'img'} filename={'staff-all002.jpg'} alt={''} />
             </Col>
           </Row>
         </div> {/* img-list */}

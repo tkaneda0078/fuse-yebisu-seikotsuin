@@ -40,7 +40,7 @@ const Faq = (props) => (
                 </Col>
                 <Col sm={pointRight}>
                   {data.img && <Image className={'img'} filename={data.img} alt={''} />}
-                  {data.url && <Link className='btn btn-outline-info w-100 btn-postion mt-3' to={data.url}>自費治療について</Link>}
+                  {data.url && <Link className='btn btn-outline-info w-100 btn-postion mt-3' to={data.url}>{data.linkTitle}</Link>}
                 </Col>
               </Row>
             </div>

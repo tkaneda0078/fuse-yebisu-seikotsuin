@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'gatsby'
 import Jumbotron from 'react-bootstrap/Jumbotron'
 import Container from 'react-bootstrap/Container'
 import CardGroup from 'react-bootstrap/CardGroup'
@@ -16,7 +15,7 @@ import TrafficAccidentMedicalTreatment from '../components/Service/trafficAccide
 const IndexPage = () => (
   <Layout>
 
-    <SEO title='Home' keywords={[`gatsby`, `application`, `react`]} />
+    <SEO title='施術内容' keywords={[`gatsby`, `application`, `react`]} />
 
     <Jumbotron fluid className='mb-5'>
       <Image className={'img'} filename={'img-point007.jpg'} alt={''} />
@@ -91,7 +90,7 @@ const IndexPage = () => (
                   <Card.Text className='small'>(例…3/5に購入の場合、4/4まで有効)</Card.Text>
                 </Card.Body>
                 <Card.Footer bsPrefix className='text-center p-md-3'>
-                  <Link className='btn btn-outline-info w-100' to='service#skeletal_correction'>ゑびす式骨格矯正について</Link>
+                  <a href='#skeletal_correction' className='btn btn-outline-info w-100'>ゑびす式骨格矯正について</a>
                 </Card.Footer>
               </Card>
 
@@ -105,7 +104,7 @@ const IndexPage = () => (
                   <Card.Text className='small'>10回券 23,000円</Card.Text>
                 </Card.Body>
                 <Card.Footer bsPrefix className='text-center p-md-3'>
-                  <Link className='btn btn-outline-info w-100' to='service#small_face_correction'>小顔矯正について</Link>
+                  <a href='#small_face_correction' className='btn btn-outline-info w-100' >小顔矯正について</a>
                 </Card.Footer>
               </Card>
 
@@ -120,7 +119,7 @@ const IndexPage = () => (
                   <Card.Text className='small'>48回券 79,600円</Card.Text>
                 </Card.Body>
                 <Card.Footer bsPrefix className='text-center p-md-3'>
-                  <Link className='btn btn-outline-info w-100' to='service#e_training'>Eトレについて</Link>
+                  <a href='#e_training' className='btn btn-outline-info w-100'>Eトレについて</a>
                 </Card.Footer>
               </Card>
             </CardGroup>

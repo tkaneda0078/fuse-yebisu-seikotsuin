@@ -18,7 +18,7 @@ class Header extends Component {
   }
 
   componentWillUnmount() {
-    window.removeEventListener('scroll')
+    window.removeEventListener('scroll', {})
   }
 
   scrollTop() {
@@ -43,7 +43,7 @@ class Header extends Component {
   render() {
     return (
       <header className={this.state.headerClass}>
-        <Navbar siteTitle={this.state.siteTitle} />
+        <Navbar />
       </header>
     )
   }

@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: ` 布施 ゑびす整骨院`,
+    title: `布施 ゑびす整骨院`,
     description: ``,
     author: ``,
   },
@@ -24,7 +24,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/logo-icon.jpg`,
       },
     },
   ],

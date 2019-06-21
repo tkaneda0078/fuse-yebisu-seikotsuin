@@ -11,7 +11,7 @@ import SEO from '../components/seo'
 const IndexPage = () => (
   <Layout>
 
-    <SEO title='Home' keywords={[`gatsby`, `application`, `react`]} />
+    <SEO title='当院について' keywords={[`gatsby`, `application`, `react`]} />
 
     <Jumbotron fluid className='mb-5'>
       <Image className={'img'} filename={'img-point006.jpg'} alt={''} />
