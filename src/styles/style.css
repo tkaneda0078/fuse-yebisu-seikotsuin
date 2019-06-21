@@ -371,6 +371,12 @@ body {
   color: #29abab;
 }
 
+@media(max-width: 768px) {
+  .first-time-contents .description {
+    width: 100%;
+    padding: 0 2rem;
+  }
+}
 
 /* ---------------------
 　service

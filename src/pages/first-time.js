@@ -107,6 +107,9 @@ const IndexPage = () => (
           <h5 className='text-color mb-4'>お会計・次回のご予約</h5>
           <div className='ml-3'>
             <p>お会計をして次回のご予約をお取りいただいて終わりになります。</p>
+            <div className='text-right'>
+              <a className='btn btn-outline-info' href='https://reserve.ekiten.jp/shop_87335253/t_form'>予約する</a>
+            </div>
           </div>
         </div>
 

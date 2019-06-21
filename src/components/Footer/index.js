@@ -37,7 +37,10 @@ const Footer = () => (
                         </a>
                       </div>
                     </Col>
-                    <Col sm={6} className='my-1 w-25'>
+                    <Col sm={4} className='my-1 w-50'>
+                      <a className='btn btn-outline-info' href='https://reserve.ekiten.jp/shop_87335253/t_form'>予約する</a>
+                    </Col>
+                    <Col sm={2} className='my-1'>
                       <a className='ins-ic' href='https://www.instagram.com/fuseebisu2951/'>
                         <MDBIcon className='icon fa-2x' fab icon='instagram' />
                       </a>
