@@ -7,14 +7,15 @@ import Col from 'react-bootstrap/Col'
 import Layout from '../components/layout'
 import Image from '../components/image'
 import SEO from '../components/seo'
+import LineNews from '../components/LineNews'
 
 const IndexPage = () => (
   <Layout>
 
-    <SEO title='Home' keywords={[`gatsby`, `application`, `react`]} />
+    <SEO title='初めての方へ' keywords={[`gatsby`, `application`, `react`]} />
 
     <Jumbotron fluid className='mb-5'>
-      <Image className={'img'} filename={'img-point007.jpg'} alt={''} />
+      <Image className={'img'} filename={'img-point010.jpg'} alt={''} />
     </Jumbotron>
 
     <Container>
@@ -114,6 +115,9 @@ const IndexPage = () => (
         </div>
 
       </div> {/* first-time-contents */}
+
+      {/* 公式LINEお知らせ */}
+      <LineNews />
 
     </Container>
 
