@@ -11,7 +11,7 @@ const IndexPage = () => (
 
     <SEO title='アクセス' keywords={[`gatsby`, `application`, `react`]} />
 
-    <Jumbotron fluid className='mb-5'>
+    <Jumbotron fluid>
       <Image className={'img'} filename={'img-point009.jpg'} alt={''} />
     </Jumbotron>
 
@@ -20,7 +20,7 @@ const IndexPage = () => (
 
       <div className='access-contents mt-5'>
 
-        <h1 className='h1 mb-5 text-color'>アクセス</h1>
+        <h1 className='h1 my-5 text-color'>アクセス</h1>
 
         <GoogleMap />
 

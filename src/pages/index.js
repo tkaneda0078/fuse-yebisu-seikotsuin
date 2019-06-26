@@ -15,7 +15,7 @@ const IndexPage = () => (
 
     <SEO title='ホーム' keywords={[`gatsby`, `application`, `react`]} />
 
-    <Jumbotron fluid className='mb-5'>
+    <Jumbotron fluid>
       <Image className={'img'} filename={'img-point004.jpg'} alt={''} />
     </Jumbotron>
 

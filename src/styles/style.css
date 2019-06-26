@@ -52,13 +52,9 @@ body {
 }
 
 .jumbotron {
-  height: 100vh;
+  height: 100%;
   background-size: cover;
-  margin: 0 auto 125px;
-}
-
-.jumbotron .img {
-  position: static !important;
+  padding: 0 !important;
 }
 
 .nav .nav-item .nav-link:hover {
@@ -104,6 +100,10 @@ body {
 }
 
 @media(max-width: 768px) {
+  .jumbotron {
+    padding-top: 4rem !important;
+  }
+  
   .social-contents .btn-line a span {
     padding-left: 30px;
     font-size: 1rem;

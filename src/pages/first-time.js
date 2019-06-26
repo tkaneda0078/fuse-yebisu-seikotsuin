@@ -14,7 +14,7 @@ const IndexPage = () => (
 
     <SEO title='初めての方へ' keywords={[`gatsby`, `application`, `react`]} />
 
-    <Jumbotron fluid className='mb-5'>
+    <Jumbotron fluid>
       <Image className={'img'} filename={'img-point010.jpg'} alt={''} />
     </Jumbotron>
 
@@ -22,7 +22,7 @@ const IndexPage = () => (
 
       <div className='first-time-contents'>
 
-        <h1 className='h1 mb-5 text-color'>初めての方へ</h1>
+        <h1 className='h1 my-5 text-color'>初めての方へ</h1>
 
         <div className='description mb-5'>
           <p>はじめて当院をご利用いただく方へ、ご来院から順に流れをご説明いたします。</p>

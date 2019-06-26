@@ -27,7 +27,7 @@ class FaqPage extends Component {
 
         <SEO title='よくある質問' keywords={[`gatsby`, `application`, `react`]} />
 
-        <Jumbotron fluid className='mb-5'>
+        <Jumbotron fluid>
           <Image className={'img'} filename={'img-point007.jpg'} alt={''} />
         </Jumbotron>
 
@@ -36,7 +36,7 @@ class FaqPage extends Component {
 
           <div className='faq-contents'>
 
-            <h1 className='h1 mb-5 text-color'>よくある質問</h1>
+            <h1 className='h1 my-5 text-color'>よくある質問</h1>
 
             <div className='caption'>
               <p className='m-0'>普段、患者さんよりお問い合わせの多い質問についてまとめてみました。</p>
