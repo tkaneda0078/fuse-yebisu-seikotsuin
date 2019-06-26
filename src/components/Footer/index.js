@@ -27,7 +27,7 @@ const Footer = () => (
               <div className='social-contents'>
                 <MDBContainer>
                   <Row>
-                    <Col sm={6} className='w-50'>
+                    <Col sm={6} className='vw-70'>
                       <div className='btn-line'>
                         <a href='https://line.me/R/ti/p/%40zgb4818u'>
                           <span>

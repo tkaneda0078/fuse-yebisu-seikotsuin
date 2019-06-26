@@ -24,8 +24,8 @@ const IndexPage = () => (
         <h1 className='h1 my-5 text-color'>当院について</h1>
 
         <div className='caption mb-5'>
-          <p className='h3'>老若男女問わず</p><br />
-          <p className='h3'>患者様一人ひとりのお気持ちに寄り添います。</p>
+          <p className='h4'>老若男女問わず</p><br />
+          <p className='h4'>患者様一人ひとりのお気持ちに寄り添います。</p>
         </div>
 
         <div className='policy-content'>

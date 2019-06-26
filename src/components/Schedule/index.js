@@ -24,7 +24,7 @@ const Schedule = () => (
           <td>○</td>
           <td>○</td>
           <td>○</td>
-          <td>○</td>
+          <td>-</td>
           <td>○</td>
           <td>○</td>
           <td>○</td>
@@ -35,7 +35,7 @@ const Schedule = () => (
           <td>○</td>
           <td>○</td>
           <td>○</td>
-          <td>○</td>
+          <td>-</td>
           <td>○</td>
           <td>○</td>
           <td>-</td>
