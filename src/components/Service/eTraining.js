@@ -70,8 +70,8 @@ const ETraining = () => (
       </Col>
     </Row>
     <div className='description mt-4'>
-      <p className='text-muted'>1秒間に5回、30分間では9,000回もの筋収縮が起こりますので、貼るだけで筋力トレーニング効果が得られます(※)。</p>
-      <p className='text-muted'>業務用器機には、刺激が一定化しないように「インターバル機能」が付いていますので、より早く結果に結びつきます。</p>
+      <p>1秒間に5回、30分間では9,000回もの筋収縮が起こりますので、貼るだけで筋力トレーニング効果が得られます(※)。</p>
+      <p>業務用器機には、刺激が一定化しないように「インターバル機能」が付いていますので、より早く結果に結びつきます。</p>
     </div>
     <Row className='my-5'>
       <Col sm={9}>
@@ -84,7 +84,7 @@ const ETraining = () => (
         <Image className={'img'} filename={'service014.jpg'} alt={''} />
       </Col>
     </Row>
-    <div className='fee text-right'>
+    <div className='fee text-right text-muted'>
       <p className='small'>通常1回 2,700円</p>
       <p className='small'>トライアル(3回券) 5,400円</p>
       <p className='small'>24回券 39,800円</p>

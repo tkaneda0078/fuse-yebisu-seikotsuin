@@ -93,7 +93,7 @@ body {
 .line-contents {
   padding-top: 2rem;
   border-top: 1px rgba(0, 0, 0, 0.3) solid;
-  margin: 0 auto 125px;
+  margin: 0 auto 3rem;
 }
 
 @media(max-width: 768px) {
@@ -125,7 +125,7 @@ body {
   position: relative;
   overflow: hidden;
   width: 100%;
-  margin: 0 auto 125px;
+  margin: 0 auto 3rem;
   transform: translateY(-35px);
 }
 
@@ -148,11 +148,11 @@ body {
 }
 
 .sub-contents {
-  margin: 0 auto 125px;
+  margin: 0 auto 3rem;
 }
 
 .sub-contents .media {
-  margin: 0 auto 100px;
+  margin: 0 auto 2rem;
 }
 
 .sub-contents .img {
@@ -161,10 +161,10 @@ body {
   object-fit: cover;
 }
 
-.sub-contents  .content {
+.sub-contents .content {
   position: relative;
   text-align: center;
-  margin: 0 auto 100px;
+  margin: 0 auto 2rem;
 }
 
 .sub-contents .description {
@@ -178,7 +178,7 @@ body {
 }
 
 .point-contents {
-  margin: 0 auto 125px;
+  margin: 0 auto 3rem;
 }
 
 .point-contents .card {
@@ -195,14 +195,14 @@ body {
 
 
 .list-group {
-  margin: 0 auto 125px;
+  margin: 0 auto 3rem;
 }
 
 .card-group {
   overflow: hidden;
   width: 100%;
   max-width: 1360px;
-  margin: 0 auto 125px;
+  margin: 0 auto 3rem;
 }
 
 .card {
@@ -218,7 +218,7 @@ body {
 .google-map {
   height: 70vh;
   width: 100%;
-  margin: 0 auto 125px;
+  margin: 0 auto 3rem;
 }
 
 @media(max-width: 768px) {
@@ -264,7 +264,6 @@ body {
 
 .about-contents .caption {
   margin-left: 5rem;
-  /* color: #29abab; */
 }
 
 .about-contents .caption p {
@@ -274,7 +273,7 @@ body {
 
 .policy-content {
   position: relative;
-  margin: 0 auto 125px;
+  margin: 0 auto 3rem;
 }
 
 .policy-content .img {
@@ -292,7 +291,7 @@ body {
 }
 
 .concept-contents {
-  margin: 0 auto 125px;
+  margin: 0 auto 3rem;
 
 }
 
@@ -316,7 +315,7 @@ body {
 }
 
 .image-contents {
-  margin: 0 auto 125px;
+  margin: 0 auto 3rem;
 }
 
 .image-contents .big-img {
@@ -371,7 +370,7 @@ body {
 　first time
 --------------------- */
 .first-time-contents {
-  margin: 0 auto 125px;
+  margin: 0 auto 3rem;
 }
 
 .first-time-contents .icon {
@@ -391,11 +390,11 @@ body {
 --------------------- */
 .service-contents,
 .medical-care-content {
-  margin: 0 auto 125px;
+  margin: 0 auto 3rem;
 }
 
 .service-contents .service {
-  margin: 0 auto 100px;
+  margin: 0 auto 2rem;
 }
 
 .medical-care-content .card-group {
@@ -437,7 +436,7 @@ body {
   staff
 ------------------------------ */
 .staff-contents {
-  margin: 0 auto 125px;
+  margin: 0 auto 3rem;
 }
 
 .staff-contents .profile {
@@ -513,7 +512,7 @@ body {
 　faq
 --------------------- */
 .faq-contents {
-  margin: 0 auto 125px;
+  margin: 0 auto 3rem;
 }
 
 .faq-contents .title {
@@ -521,7 +520,7 @@ body {
 }
 
 .faq-contents .caption {
-  margin: 0 auto 100px;
+  margin: 0 auto 2rem;
 }
 
 .question .fa-quora {
@@ -553,7 +552,7 @@ body {
 　access
 --------------------- */
 .access-contents {
-  margin: 0 auto 125px; 
+  margin: 0 auto 3rem; 
 }
 
 .access-contents .title {

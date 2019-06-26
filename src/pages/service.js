@@ -41,30 +41,30 @@ const IndexPage = () => (
             <Card border='light' className='rounded'>
               <Card.Body>
                 <Card.Title className='text-center mb-3 text-color'>初診料・再診料</Card.Title>
-                <div className='text-right'>
-                  <Card.Text className='small'>3割負担　1,500円</Card.Text>
-                  <Card.Text className='small'>2割負担　1,100円</Card.Text>
-                  <Card.Text className='small'>1割負担　600円</Card.Text>
+                <div className='text-right text-muted'>
+                  <Card.Text>3割負担　1,500円</Card.Text>
+                  <Card.Text>2割負担　1,100円</Card.Text>
+                  <Card.Text>1割負担　600円</Card.Text>
                 </div>
               </Card.Body>
             </Card>
             <Card border='light' className='rounded'>
               <Card.Body>
                 <Card.Title className='text-center mb-3 text-color'>2回目</Card.Title>
-                <div className='text-right'>
-                  <Card.Text className='small'>3割負担　700円</Card.Text>
-                  <Card.Text className='small'>2割負担　600円</Card.Text>
-                  <Card.Text className='small'>1割負担　400円</Card.Text>
+                <div className='text-right text-muted'>
+                  <Card.Text>3割負担　700円</Card.Text>
+                  <Card.Text>2割負担　600円</Card.Text>
+                  <Card.Text>1割負担　400円</Card.Text>
                 </div>
               </Card.Body>
             </Card>
             <Card border='light' className='rounded'>
               <Card.Body>
                 <Card.Title className='text-center mb-3 text-color'>3回目以降</Card.Title>
-                <div className='text-right'>
-                  <Card.Text className='small'>3割負担　500円</Card.Text>
-                  <Card.Text className='small'>2割負担　400円</Card.Text>
-                  <Card.Text className='small'>1割負担　200円</Card.Text>
+                <div className='text-right text-muted'>
+                  <Card.Text>3割負担　500円</Card.Text>
+                  <Card.Text>2割負担　400円</Card.Text>
+                  <Card.Text>1割負担　200円</Card.Text>
                 </div>
               </Card.Body>
             </Card>
@@ -85,9 +85,11 @@ const IndexPage = () => (
                 <Image className={'card-img rounded'} filename={'service001.jpg'} alt={''} />
                 <Card.Body>
                   <Card.Title className='text-center mb-3'>ゑびす式骨格矯正</Card.Title>
-                  <Card.Text className='small'>1回 2,000円</Card.Text>
-                  <Card.Text className='small'>定額(1か月) 5,400円</Card.Text>
-                  <Card.Text className='small'>(例…3/5に購入の場合、4/4まで有効)</Card.Text>
+                  <div className='small text-muted'>
+                    <Card.Text>1回 2,000円</Card.Text>
+                    <Card.Text>定額(1か月) 5,400円</Card.Text>
+                    <Card.Text>(例…3/5に購入の場合、4/4まで有効)</Card.Text>
+                  </div>
                 </Card.Body>
                 <Card.Footer bsPrefix className='text-center p-md-3'>
                   <a href='#skeletal_correction' className='btn btn-outline-info w-100'>ゑびす式骨格矯正について</a>
@@ -98,10 +100,12 @@ const IndexPage = () => (
                 <Image className={'card-img rounded'} filename={'service005.jpg'} alt={''} />
                 <Card.Body>
                   <Card.Title className='text-center mb-3'>小顔矯正</Card.Title>
-                  <Card.Text className='small'>1回 2,700円</Card.Text>
-                  <Card.Text className='small'>トライアル(3回券) 7,500円</Card.Text>
-                  <Card.Text className='small'>5回券 12,000円</Card.Text>
-                  <Card.Text className='small'>10回券 23,000円</Card.Text>
+                  <div className='small text-muted'>
+                    <Card.Text>1回 2,700円</Card.Text>
+                    <Card.Text>トライアル(3回券) 7,500円</Card.Text>
+                    <Card.Text>5回券 12,000円</Card.Text>
+                    <Card.Text>10回券 23,000円</Card.Text>
+                  </div>
                 </Card.Body>
                 <Card.Footer bsPrefix className='text-center p-md-3'>
                   <a href='#small_face_correction' className='btn btn-outline-info w-100' >小顔矯正について</a>
@@ -112,11 +116,13 @@ const IndexPage = () => (
                 <Image className={'card-img rounded'} filename={'service006.jpg'} alt={''} />
                 <Card.Body>
                   <Card.Title className='text-center mb-3'>腹筋運動「Eトレ」</Card.Title>
-                  <Card.Text className='small'>1回 2,700円</Card.Text>
-                  <Card.Text className='small'>トライアル 5,400円</Card.Text>
-                  <Card.Text className='small'>24回券 39,800円</Card.Text>
-                  <Card.Text className='small'>36回券 59,700円</Card.Text>
-                  <Card.Text className='small'>48回券 79,600円</Card.Text>
+                  <div className='small text-muted'>
+                    <Card.Text>1回 2,700円</Card.Text>
+                    <Card.Text>トライアル 5,400円</Card.Text>
+                    <Card.Text>24回券 39,800円</Card.Text>
+                    <Card.Text>36回券 59,700円</Card.Text>
+                    <Card.Text>48回券 79,600円</Card.Text>
+                  </div>
                 </Card.Body>
                 <Card.Footer bsPrefix className='text-center p-md-3'>
                   <a href='#e_training' className='btn btn-outline-info w-100'>Eトレについて</a>
@@ -125,7 +131,7 @@ const IndexPage = () => (
             </CardGroup>
             <div className='description ml-4 text-right'>
               <h5 className='mb-3'>延長施術</h5>
-              <div className='fee ml-md-5'>
+              <div className='fee ml-md-5 text-muted'>
                 <p>5分　　540円　/　15分　1,620円</p>
                 <p>10分　1,080円　/　20分　2,160円</p>
                 <p></p>

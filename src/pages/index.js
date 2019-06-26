@@ -40,7 +40,7 @@ const IndexPage = () => (
             <Image className={'img'} filename={'service004.jpg'} alt={''} />
           </figure>
           <div className='description'>
-            <h4 className='mb-5'>すぐに効果を実感</h4>
+            <h4 className='my-4'>すぐに効果を実感</h4>
             <p>長い時間をかけて生じたカラダの歪みの原因を究明し、独自のメソッドで矯正し改善いたします。</p>
             <p>歪んだ骨格を瞬時に矯正するという、当院院長が考案の【ゑびす式骨格矯正】</p>
             <p>一番の特徴は「即効性」が高く、施術後にすぐ体感が変わります。</p>
@@ -51,7 +51,7 @@ const IndexPage = () => (
             <Image className={'img'} filename={'img-point001.jpg'} alt={''} />
           </figure>
           <div className='description'>
-            <h4 className='mb-5'>長年続いた痛みが、再発しない身体づくり</h4>
+            <h4 className='my-4'>長年続いた痛みが、再発しない身体づくり</h4>
             <p>施術して、一旦は快適な身体を手に入れても、生活習慣や姿勢・カラダの使い方など、これまでと同じサイクルで生活していくと、</p>
             <p>いずれまた身体の不調・痛みや歪みの症状が再発する可能性が高まってしまいます。</p>
             <p>当院ではそうした「再発防止」のために、一つ一つ丁寧な生活習慣の指導や運動法など事細かにお伝えし、</p>

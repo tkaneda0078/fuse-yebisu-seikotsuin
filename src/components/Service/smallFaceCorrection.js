@@ -48,7 +48,7 @@ const SmallFaceCorrection = () => (
         <Image className={'img'} filename={'service009.jpg'} alt={''} />
       </Col>
     </Row>
-    <div className='fee text-right'>
+    <div className='fee text-right text-muted'>
       <p className='small'>通常1回 2,700円</p>
       <p className='small'>トライアル(3回券) 7,500円</p>
       <p className='small'>5回券 12,000円</p>
