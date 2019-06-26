@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `布施 ゑびす整骨院`,
+    title: `ふせ ゑびす整骨院`,
     description: ``,
     author: ``,
   },
