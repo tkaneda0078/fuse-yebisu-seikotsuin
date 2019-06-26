@@ -7,12 +7,10 @@ body {
 }
 
 .header {
-  height: 5rem;
   position: fixed;
   top: 0;
   width: 100%;
   background: #fff;
-  transition: all 1s ease;
   z-index: 10;
 }
 
@@ -39,16 +37,15 @@ body {
   font-size: 1.5rem;
 }
 
-.hidden {
-  background: none;
-  transition: all 1s ease;
-}
-
 .navbar-brand {
   background: url('../images/logo.jpg') no-repeat left center;
   background-size: contain;
   height: 50px;
   width: 250px;
+}
+
+.navbar-nav .li {
+  margin-bottom: 0;
 }
 
 .jumbotron {
