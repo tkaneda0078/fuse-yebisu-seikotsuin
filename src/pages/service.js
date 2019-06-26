@@ -15,7 +15,7 @@ import TrafficAccidentMedicalTreatment from '../components/Service/trafficAccide
 const IndexPage = () => (
   <Layout>
 
-    <SEO title='施術内容' keywords={[`gatsby`, `application`, `react`]} />
+    <SEO title='施術内容' keywords={[`施術内容`, `サービス`, `保険診療`]} />
 
     <Jumbotron fluid>
       <Image className={'img'} filename={'img-point007.jpg'} alt={''} />

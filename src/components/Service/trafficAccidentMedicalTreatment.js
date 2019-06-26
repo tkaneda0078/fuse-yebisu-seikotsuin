@@ -9,7 +9,7 @@ import Image from '../image'
  */
 const TrafficAccidentMedicalTreatment = () => (
   <div id='traffic_accident_medical_treatment' className='service'>
-    <h2 className='mb-5 caption'><i className='icon fas fa-car-crash mr-2' />交通事故治療</h2>
+    <h2 className='mb-4 caption'><i className='icon fas fa-car-crash mr-2' />交通事故治療</h2>
     <div className='description mb-4'>
       <p className='text-color'>交通事故に合ったら…</p>
       <Row className='mb-5'>

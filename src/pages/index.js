@@ -13,7 +13,7 @@ import GoogleMap from '../components/GoogleMap'
 const IndexPage = () => (
   <Layout>
 
-    <SEO title='ホーム' keywords={[`gatsby`, `application`, `react`]} />
+    <SEO title='ホーム' keywords={[`整骨院`, `布施`, `大阪`]} />
 
     <Jumbotron fluid>
       <Image className={'img'} filename={'img-point004.jpg'} alt={''} />
@@ -25,7 +25,7 @@ const IndexPage = () => (
           <Image className={'img'} filename={'img-point005.jpg'} alt={''} />
         </figure>
         <div className='description'>
-          <h3 className='mb-5'>患者様一人ひとりのお気持ちに寄り添います。</h3>
+          <h1 className='mb-5 h4'>患者様一人ひとりのお気持ちに寄り添います。</h1>
           <p className='mb-0'>ゑびす整骨院では、</p>
           <p>痛みの原因を追求します。</p>
           <p>どれだけ効果的な施術しても、アプローチの場所が違えば、施術の意味がなくなり、また再発の可能性も高まってしまいます。</p>

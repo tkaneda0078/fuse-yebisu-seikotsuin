@@ -12,7 +12,7 @@ import LineNews from '../components/LineNews'
 const IndexPage = () => (
   <Layout>
 
-    <SEO title='初めての方へ' keywords={[`gatsby`, `application`, `react`]} />
+    <SEO title='初めての方へ' keywords={[`初めての方へ`, `整骨院`, `初回`]} />
 
     <Jumbotron fluid>
       <Image className={'img'} filename={'img-point010.jpg'} alt={''} />

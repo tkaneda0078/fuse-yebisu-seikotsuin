@@ -6,7 +6,7 @@ import Image from '../image'
  */
 const SkeletalCorrection = () => (
   <div id='skeletal_correction' className='service'>
-    <h2 className='mb-5 caption'><i className='icon fas fa-bullseye mr-2' />ゑびす式骨格矯正</h2>
+    <h2 className='mb-4 caption'><i className='icon fas fa-bullseye mr-2' />ゑびす式骨格矯正</h2>
     <div className='description mb-4'>
       <p className=''>ゑびす式骨格矯正のメリット</p>
       <ul>

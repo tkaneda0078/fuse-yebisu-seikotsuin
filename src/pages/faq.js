@@ -25,7 +25,7 @@ class FaqPage extends Component {
     return (
       <Layout>
 
-        <SEO title='よくある質問' keywords={[`gatsby`, `application`, `react`]} />
+        <SEO title='よくある質問' keywords={[`よくある質問`, `整骨院`, `布施`]} />
 
         <Jumbotron fluid>
           <Image className={'img'} filename={'img-point007.jpg'} alt={''} />
