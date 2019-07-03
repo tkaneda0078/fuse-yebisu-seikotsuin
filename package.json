@@ -31,7 +31,7 @@
     "build": "GATSBY_ACTIVE_ENV=production gatsby build",
     "develop": "gatsby develop",
     "start": "npm run develop",
-    "serve": "gatsby serve",
+    "serve": "GATSBY_ACTIVE_ENV=production gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
   },
   "repository": {
