@@ -28,7 +28,7 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "GATSBY_ACTIVE_ENV=production gatsby build",
+    "build": "gatsby build",
     "develop": "gatsby develop",
     "start": "npm run develop",
     "serve": "GATSBY_ACTIVE_ENV=production gatsby serve",
